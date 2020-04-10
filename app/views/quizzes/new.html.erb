@@ -1,0 +1,8 @@
+<h1>Queres fazer um quiz?</h1>
+<p>Ora essa! Vamos lá a isso então!</p>
+
+<%= simple_form_for @quiz do |f| %>
+  <%= f.input :name, label: 'Que nome queres dar a este quiz?' %>
+  <%= f.input :style, label: 'Modo de jogo', collection: ['Normal', 'Cascata', 'Escada'], default: 'normal' %>
+  <%= f.submit 'Bora lá escolher umas perguntas', class: 'btn btn-danger' %>
+<% end %>

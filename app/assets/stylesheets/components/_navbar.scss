@@ -1,12 +1,12 @@
-.navbar-lewagon {
+.navbar-quiz {
   justify-content: space-between;
-  background: white;
+  background: $quiz-blue;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-quiz .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-quiz .navbar-brand img {
+  height: 40px;
 }
