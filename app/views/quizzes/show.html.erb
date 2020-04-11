@@ -1,4 +1,4 @@
-<h1>Queres fazer um quiz <%= @quiz.style %>?</h1>
+<h1>Queres fazer um quiz <%= @quiz.style.downcase %>?</h1>
 <p>Ora essa! Vamos lá a isso então!</p>
 
 <% @questions.each_with_index do |question, index| %>
